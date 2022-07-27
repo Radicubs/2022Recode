@@ -19,4 +19,7 @@ public final class Constants {
     public static final int CONTROLLER = 0;
     public static final int A_BUTTON = 0;
     public static final int B_BUTTON = 0;
+    public static final int TOP_SHOOTER = 0;
+    public static final int BOTTOM_SHOOTER = 0;
+    public static final int SHOOTER_BUTTON = 0;
 }
