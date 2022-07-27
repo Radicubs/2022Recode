@@ -15,6 +15,8 @@ package frc.robot;
  */
 public final class Constants {
     public static final int INTAKE_MOTOR = 0;
+    public static final int ELEVATOR_MOTOR = 0;
     public static final int CONTROLLER = 0;
     public static final int A_BUTTON = 0;
+    public static final int B_BUTTON = 0;
 }
