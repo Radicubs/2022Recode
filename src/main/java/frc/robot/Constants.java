@@ -22,4 +22,8 @@ public final class Constants {
     public static final int TOP_SHOOTER = 0;
     public static final int BOTTOM_SHOOTER = 0;
     public static final int SHOOTER_BUTTON = 0;
+    public static final int FRONT_LEFT_MOTOR = 0;
+    public static final int BACK_LEFT_MOTOR = 0;
+    public static final int FRONT_RIGHT_MOTOR = 0;
+    public static final int BACK_RIGHT_MOTOR = 0;
 }
