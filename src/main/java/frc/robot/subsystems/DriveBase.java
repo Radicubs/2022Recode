@@ -31,5 +31,13 @@ public class DriveBase extends SubsystemBase {
 
 
     }
+    public void setPercent(double fLPercent, double fRPercent, double bLPercent, double bRPercent)
+    {
+        frontLeft.set(fLPercent);
+        frontRight.set(fRPercent);
+        backLeft.set(bLPercent);
+        backRight.set(bRPercent);
+    }
+
 
 }

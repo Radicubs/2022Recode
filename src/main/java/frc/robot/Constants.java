@@ -26,4 +26,5 @@ public final class Constants {
     public static final int BACK_LEFT_MOTOR = 0;
     public static final int FRONT_RIGHT_MOTOR = 0;
     public static final int BACK_RIGHT_MOTOR = 0;
+    public static final int AXIS_ID = 0;
 }
