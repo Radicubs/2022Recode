@@ -11,8 +11,8 @@ public class Shooter extends SubsystemBase{
     private final WPI_TalonFX bottomMotor;
 
     public Shooter(){
-        topMotor = new WPI_TalonFX(0);
-        bottomMotor = new WPI_TalonFX(0);
+        topMotor = new WPI_TalonFX(5);
+        bottomMotor = new WPI_TalonFX(6);
         setDefaultCommand(new ShooterCommand(this));
     }
 
