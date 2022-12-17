@@ -9,7 +9,7 @@ import edu.wpi.first.wpilibj.GenericHID;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj2.command.Command;
-
+import frc.robot.subsystems.Shooter;
 
 
 /**
@@ -22,6 +22,10 @@ public class RobotContainer
 {
     // The robot's subsystems and commands are defined here...
     public static Joystick joystick = new Joystick(0);
+    private final MecanumDriveBase base = new MecanumDriveBase();
+
+    private final Shooter shooter = new Shooter();
+
     
     /** The container for the robot. Contains subsystems, OI devices, and commands. */
     public RobotContainer()
